@@ -1,0 +1,201 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.stipletLinje {
+    position: absolute;
+    z-index: 2;
+}
+
+#stiplet1 {
+
+}
+
+#stiplet2 {
+    margin-top: 930px;
+    right: -30px;
+    transform: rotate(2deg);
+}
+
+.ikoner {
+    position: absolute;
+    z-index: 4;
+
+}
+
+#blyant {
+    width: 70px;
+    height: 70px;
+    top: 500px;
+    right: 70px;
+}
+
+#hatt {
+    right: 50px;
+    top: 580px;
+    width: 100px;
+    height: 100px;
+}
+
+#bok {
+    width: 80px;
+    height: 80px;
+    top: 400px;
+    right: 60px;
+}
+
+#innpakning {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1950px;
+    background-color: #efe9f5;
+    margin: 0;
+    align-items: center;
+    z-index: 0;
+
+}
+
+#hvitBakgrunn {
+    position: absolute;
+    background-color: white;
+    width: 1300px;
+    height: 2300px;
+    border-radius: 50%;
+    top: -700px;
+    right: -250px;
+    transform: rotate(-50deg);
+    z-index: 1;
+
+}
+
+#logo {
+    width: 300px;
+    height: 70px;
+    z-index: 3;
+    margin-top: 35px;
+}
+
+#intro {
+    font-family: "Calibri Light";
+    font-size: 30px;
+    color: #767171;
+    z-index: 3;
+}
+
+#del1 {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    z-index: 3;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 20px rgba(118,113,113,0.7);
+}
+
+#del1innhold {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#forside {
+    height: 90%;
+    width: 25%;
+    box-shadow: 5px 5px 20px rgba(118,113,113,0.7);
+}
+
+#boksTekstForside {
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+
+#tekstForside {
+    color: #515151;
+    font-size: 23px;
+    line-height: 1.5;
+    font-family: "Calibri Light";
+}
+
+#del2 {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 1200px;
+    z-index: 3;
+    margin-top: 90px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#boksTekstTreBilder {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    margin-right: 15px;
+}
+
+#tekstTreBilder {
+    color: #515151;
+    font-size: 23px;
+    line-height: 1.5;
+    font-family: "Calibri Light";
+}
+
+.treBilder {
+    width: 200px;
+    height: 360px;
+    box-shadow: 5px 5px 20px rgba(118,113,113,0.7);
+}
+
+#del3 {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 500px;
+    z-index: 3;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#boksTekstDel3 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+}
+
+#tekstDel3 {
+    color: #515151;
+    font-size: 23px;
+    line-height: 1.5;
+    font-family: "Calibri Light";
+}
+
+#fadderHelse {
+    display: flex;
+    flex-direction: row;
+    width: 470px;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.toBilder {
+    width: 200px;
+    height: 360px;
+    box-shadow: 5px 5px 20px rgba(118,113,113,0.7);
+}
+
+.lilla {
+    color: rgba(101,21,229,0.7);
+    font-weight: bold;
+}
